@@ -1,0 +1,12 @@
+Program: fence_dlink_snmp
+Author:  digimer (digimer@alteeve.com)
+Date:    2012-03-15
+Version: 1.0
+License: GPL v2.0+
+
+This fence agent is for D-Link managed switches. It is designed to act as an
+inexpensive fabric fence. Configure it to disable all ports connected to a
+given nod, and use it against multiple switches in redundant configurations.
+
+This agent is tested against EL6/cluster stable 3. 
+
